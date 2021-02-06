@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    // background: linear-gradient(to left, #0D2339, #4FA5DD);
+    background: linear-gradient(to left, #A74C60, #4FA5DD);
+    z-index: -1;
+}
+
+#top-line {
+    padding: 20px 20px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px grey;
+
+}
+
+@import "./navbar";
+@import "./photo";

@@ -1,0 +1,62 @@
+$font-stack: 'Roboto', sans-serif;
+
+@mixin hover-active {
+    &:hover {
+      .no-touch & {
+        @content;
+      }
+    }
+    &:hover { 
+        cursor: pointer;
+        transform: scale(1.5);
+    }
+    &:active {
+      .touch & {
+        @content;
+      }
+    }
+  }
+
+
+nav {
+    min-height: 5vh;
+    display: grid;
+    z-index: 3;
+    grid-template-columns: 70% 10% 10% 10%;
+    color: white;
+
+    align-items: center;
+    text-align: center;
+    @media screen and (max-width: 800px) {
+        font-size: 14px;
+      }
+}
+
+.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 5vh;
+    display: grid;
+    z-index: 3;
+    grid-template-columns: 70% 10% 10% 10%;
+    color: white;
+    background: linear-gradient(to left, #A74C60, #4FA5DD);
+    align-items: center;
+    text-align: center;
+    @media screen and (max-width: 800px) {
+        font-size: 14px;
+      }
+    
+  }
+
+#service-nav {
+    grid-column: 2/3;
+}
+.link {
+    justify-self: center;
+
+    @include hover-active;
+    transition: all .2s ease-in-out;
+}
