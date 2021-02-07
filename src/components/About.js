@@ -31,7 +31,7 @@ const About = () => {
         <Division id="about">
             <Title>Về Công ty Quang Minh</Title>
             <SmallDivision>
-                <p style={{color: "white", letterSpacing: 2, lineHeight: 2, textAlign: 'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p style={{color: "white", letterSpacing: 2, lineHeight: 2, textAlign: 'center'}}>Công ty Quang Minh được thành lập từ năm 2005 tại Thành phố Hồ Chí Minh. Các nhân viên của công ty chúng tôi có nhiều kinh nghiệm lâu năm về xây dựng và các thủ tục pháp lý nhà đất. Công ty Quang Minh chúng tôi luôn sẵn sàng nhiệt tình hỗ trợ quý khách.</p>
             </SmallDivision>
             
         </Division>
