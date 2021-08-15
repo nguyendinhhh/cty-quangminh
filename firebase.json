@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "ctyquangminhtphcm",
     "public": "build",
     "ignore": [
       "firebase.json",
