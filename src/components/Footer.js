@@ -12,7 +12,7 @@ const Footer = () => {
     `;
     return (
         <Division>
-            <p style={{color: 'white'}}>Công ty Cổ phần Tư vấn - Xây dựng Quang Minh Copyright @ 2021</p>
+            <p style={{color: 'white',textAlign:'center'}}>Công ty Cổ phần Tư vấn - Xây dựng Quang Minh Copyright @ 2021</p>
         </Division>
     )
 }

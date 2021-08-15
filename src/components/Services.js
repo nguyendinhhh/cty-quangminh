@@ -15,6 +15,11 @@ const Services = () => {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        width: 100%;
+
+        @media screen and (max-width:400px){
+            flex-direction: column;
+        }
     `;
 
     return (

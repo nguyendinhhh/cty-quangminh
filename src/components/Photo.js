@@ -13,7 +13,8 @@ const Photo = () => {
                 <div style={props}>
                     <section>
                         <div className="hero">
-                            <img src="https://i0.wp.com/www.director.co.uk/wp-content/uploads/2016/03/March-2016-Reviews-Cities-Ho-Chi-Minh-City-The-Reverie-Saigon-2.jpg?resize=1000%2C500&ssl=1" alt="HoChiMinhCity"/>
+                            {/* <img src="/Users/nguyendinh/Desktop/coding/cty-quangminh/src/images/img8.jpeg" alt="HoChiMinhCity"/> */}
+                            <img src="https://images.unsplash.com/photo-1583417319070-4a69db38a482?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG8lMjBjaGklMjBtaW5oJTIwY2l0eSUyMHZpZXRuYW18ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="HoChiMinhCity"/>
                             <h1 className="headline">Công ty Cổ phần <br></br>Tư vấn - Xây dựng <br></br>Quang Minh</h1>
                         </div>
                     </section>
